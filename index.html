@@ -128,14 +128,7 @@ padding: 10px;
             document.documentElement.className = Telegram.WebApp.colorScheme;
         });
 
-        // Show main button
-        Telegram.WebApp.MainButton.setParams({
-            text: 'Main Button'
-        });
-        Telegram.WebApp.MainButton.onClick(function () {
-            Telegram.WebApp.showAlert('Main Button was clicked')
-        });	
-        Telegram.WebApp.MainButton.show();
+       
 
         // Function to call showPopup API
         function showPopup() {
